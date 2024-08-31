@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    font-family: Arial, sans-serif;
+    background-color: #080808;
+    background-image: url('stopwatch.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Text color set to white */
+}
+
+.stopwatch {
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    color: #080808; /* Buttons can have dark text */
+    background-color: white; /* Buttons background set to white for contrast */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #ccc; /* Slight hover effect for buttons */
+}
+
+#laps {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.stopwatch h1, #display, #laps {
+    color: white; /* Ensures that all text elements are white */
+}
